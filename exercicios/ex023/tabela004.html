@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 10px;
+        }
+    </style>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <Tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td>1000</td>
+            </tr>
+        </Tfoot>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                    <td>Ana Maria Santos</td>
+                    <td>X-Man</td>
+                    <td>Os 300</td>
+                    <td>O Protetor</td>
+            </tr>
+
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Quarto de Gerra</td>
+                <td>Milagre da Sela 7</td>
+                <td>O Atirador</td>
+            </tr>
+
+            <tr>
+                <td>Cláudia Melo</td>
+                <td>Hulk</td>
+                <td>Batiman</td>
+                <td>spide Man</td>
+            </tr>
+
+            <tr>
+                <th rowspan="3">Homens</th>
+                <td>Marcelo Silva</td>
+                <td>Matrix</td>
+                <td>Apocalipse</td>
+                <td>Star Wars</td>
+            </tr>
+
+            <tr>
+                <td>Raí Gomes</td>
+                <td>Sonick</td>
+                <td>Tartaruga Ninja</td>
+                <td>Smorf</td>
+            </tr>
+
+            <tr>
+                <td>Mateus Lucas</td>
+                <td>Pepa Pig</td>
+                <td>Marcha e Urso</td>
+                <td>Pica-Pal</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
